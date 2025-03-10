@@ -1,0 +1,26 @@
+@import './normalize.css';
+
+
+html, body {
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant-ligatures: none;
+  overflow-x: hidden;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+}

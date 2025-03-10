@@ -1,26 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HeaderApp></HeaderApp>
+  <HeroApp></HeroApp>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderApp from './components/HeaderApp/HeaderApp.vue';
+import HeroApp from './components/HeroApp/HeroApp.vue';
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    HeaderApp, // Здесь вы добавляете компонент
+    HeroApp
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
