@@ -58,6 +58,7 @@ export default {
   display: flex;
   align-items: center;
   height: 100%;
+  display: none;
 }
 .nav__item {
   margin-right: 15px;
@@ -69,8 +70,8 @@ export default {
   transform: translate(0, -2px);
 }
 .logo {
-  width: 9vw;
-  height: 9vh;
+  width: 13vw;
+  height: 13vh;
   background: url(./photo.png);
   background-size: contain;
   background-repeat: no-repeat;
